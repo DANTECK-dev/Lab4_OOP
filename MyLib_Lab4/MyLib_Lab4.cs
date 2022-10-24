@@ -131,56 +131,9 @@
         public void GetMassive()
         {
             Sort();
-            Console.WriteLine("");
+            Console.WriteLine();
             Print();
         }
-        //private void Sort()
-        //{
-        //    int left = 0;
-        //    int right = count - 1;
-        //    bool changed;
-
-        //    do
-        //    {
-        //        changed = false;
-        //        Changed(left, right, ref changed);
-        //        right++;
-        //        Changed(right, left, ref changed);
-        //        left++;
-        //    } while (changed);
-        //}
-        //private void Changed(int index1, int index2, ref bool changed)
-        //{
-        //    if (index1 == index2) return;
-
-        //    if (index2 < index1)
-        //    {
-        //        for (int i = index2; i < index1; i++)
-        //        {
-        //            if (people.ElementAt(i).ToString() > b[i + 1])
-        //            {
-        //                int temp = b[i];
-        //                b[i] = b[i + 1];
-        //                b[i + 1] = temp;
-        //                changed = true;
-        //            }
-        //        }
-        //    }
-        //    else
-        //    {
-        //        for (int i = index2; i > index1; i--)
-        //        {
-        //            if (b[i] < b[i - 1])
-        //            {
-        //                int temp = b[i];
-        //                b[i] = b[i - 1];
-        //                b[i - 1] = temp;
-        //                changed = true;
-        //            }
-        //        }
-        //    }
-        //    return;
-        //}
         private void Sort()
         {
             int min = 0;
